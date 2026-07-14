@@ -1,3 +1,4 @@
+![Uploading Splash_Cyberpunk_Nexus.png…]()
 README
 # ESP32-P4 LVGL v9 UI Boilerplate — Cyberpunk Nexus Theme
 
