@@ -22,7 +22,7 @@ Each boilerplate contains:
 
 - Complete ESP-IDF project structure
 - Production-ready ForgeUI One runtime
-- Professionally designed single-page **Cyberpunk Nexus** HMI
+- Professionally designed single-page **Cyberpunk_Nexus** HMI
 - Hardware-proven embedded runtime
 - Clean, zero-bloat starting point for your own applications
 
