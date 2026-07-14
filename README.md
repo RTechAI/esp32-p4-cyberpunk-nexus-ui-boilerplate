@@ -1,3 +1,4 @@
+<img width="1285" height="757" alt="Splash_Cyberpunk_Nexus" src="https://github.com/user-attachments/assets/d990f96a-ee95-454a-916f-bb4cba9a79d6" />
 ![Uploading Splash_Cyberpunk_Nexus.png…]()
 README
 # ESP32-P4 LVGL v9 UI Boilerplate — Cyberpunk Nexus Theme
