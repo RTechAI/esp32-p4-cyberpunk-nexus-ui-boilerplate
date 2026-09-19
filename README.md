@@ -1,19 +1,22 @@
-<img width="1285" height="757" alt="Splash_Cyberpunk_Nexus" src="https://github.com/user-attachments/assets/d990f96a-ee95-454a-916f-bb4cba9a79d6" />
-![Uploading Splash_Cyberpunk_Nexus.png…]()
-README
-# ESP32-P4 LVGL v9 UI Boilerplate — Cyberpunk Nexus Theme
+# Cyberpunk Nexus — ESP32-P4 LVGL UI Boilerplate
 
-Hardware-proven ESP32-P4 LVGL v9 UI boilerplate featuring the **Cyberpunk Nexus** theme for the **Waveshare ESP32-P4-WIFI6-Touch-LCD-7B** (7-inch 1024×600).
+![Cyberpunk Nexus visual theme artwork](Splash%20BoilerPlate_ESP32-P4-WIFI6-Touch-LCD-7B_1024x600_Cyberpunk_Nexus.png)
 
-Designed with **ESP32-P4 UI Studio** and powered by the **ForgeUI One** runtime.
+*Cyberpunk Nexus visual theme artwork; it demonstrates the project's visual identity, not physical hardware or a running-device screenshot.*
 
-This repository provides a production-ready embedded HMI baseline that can be cloned, customised, built, and flashed directly to physical ESP32-P4 hardware.
+Cyberpunk Nexus is a hardware-proven ESP32-P4/LVGL v9 UI boilerplate for the Waveshare ESP32-P4-WIFI6-Touch-LCD-7B (7-inch, 1024×600), built with ESP-IDF 5.5.4.
+
+It preserves a Cyberpunk Nexus HMI and tested ESP32-P4 baseline using MIPI-DSI display and GT911 touch support.
+
+ForgeUI is developed by [RTechAI](https://github.com/RTechAI).
+
+This repository records the earlier ESP32-P4 UI Studio / ForgeUI One generation; it is not represented as output from today's ForgeUI Hosted Studio.
 
 ---
 
-# Built with ESP32-P4 UI Studio
+## Built with ESP32-P4 UI Studio
 
-This project was visually designed and exported using **ESP32-P4 UI Studio**.
+This project was visually designed and exported using **ESP32-P4 UI Studio**, part of this earlier ForgeUI development generation.
 
 ESP32-P4 UI Studio provides:
 
@@ -27,15 +30,13 @@ ESP32-P4 UI Studio provides:
 - Standalone ESP-IDF project export
 - Direct deployment to ForgeUI One
 
-Repository:
-
-https://github.com/RTechAI/esp32p4-ui-studio
+Historical repository: <https://github.com/RTechAI/esp32p4-ui-studio>
 
 ---
 
-# Powered by ForgeUI One
+## Powered by ForgeUI One
 
-This project runs on the **ForgeUI One** embedded runtime.
+This project uses the **ForgeUI One** embedded runtime/reference baseline for this generation.
 
 ForgeUI One provides:
 
@@ -47,39 +48,40 @@ ForgeUI One provides:
 - Hardware-proven runtime architecture
 - Single-page application framework
 
-Repository:
-
-https://github.com/RTechAI/ForgeUI-One
+Repository: <https://github.com/RTechAI/ForgeUI-One>
 
 ---
 
-# Features
+## Features
 
-- Hardware-proven on ESP32-P4
+- Hardware-proven ESP32-P4 baseline
 - Native C firmware
-- ESP-IDF v5.5.x
-- LVGL v9
+- ESP-IDF 5.5.4
+- LVGL 9.2.2
 - 1024×600 display support
 - GT911 touch support
 - Single-page HMI architecture
 - Cyberpunk Nexus hero theme
-- Production-ready project structure
+- Production-ready project structure for the documented baseline
 - Ready for customisation
 
 ---
 
-# Hardware
+## Hardware
 
-Validated on:
+Validated on the documented baseline:
 
 - Waveshare ESP32-P4-WIFI6-Touch-LCD-7B
 - ESP32-P4
-- EK79007 MIPI-DSI Display
-- GT911 Capacitive Touch
+- EK79007 MIPI-DSI display
+- GT911 capacitive touch
+- Waveshare ESP32-P4-WIFI6-Touch-LCD-7B BSP
 
 ---
 
-# Quick Start
+## Quick Start
+
+Install and activate an ESP-IDF 5.5.4 environment before using these commands.
 
 Set the target:
 
@@ -93,7 +95,7 @@ Build:
 idf.py build
 ```
 
-Flash:
+Flash and monitor (select the appropriate serial port if needed):
 
 ```bash
 idf.py flash monitor
@@ -101,33 +103,47 @@ idf.py flash monitor
 
 ---
 
-# About This Boilerplate
+## About This Boilerplate
 
-This repository is one of the official **ForgeUI One UI Boilerplates**.
+This repository is one of the official **ForgeUI One UI Boilerplates** from the earlier ESP32-P4 UI Studio / ForgeUI One generation.
 
 Each boilerplate is:
 
-- Hardware proven
+- Hardware-proven on its documented baseline
 - Generated using ESP32-P4 UI Studio
 - Powered by ForgeUI One
 - Designed as a production-ready starting point for embedded touchscreen products
 
 ---
 
-# Support
+## Current ForgeUI Studio
+
+Current ForgeUI development continues through [ForgeUI](https://forgeui.co.nz) and [ForgeUI Hosted Studio](https://studio.forgeui.co.nz).
+
+ForgeUI Hosted Studio is available for public registration.
+
+This repository remains a public reference from the earlier ESP32-P4 UI Studio / ForgeUI One generation.
+
+---
+
+## About ForgeUI
+
+[ForgeUI](https://forgeui.co.nz) is developed by [RTechAI](https://github.com/RTechAI), whose GitHub organization hosts ForgeUI public repositories and reference work.
+
+ForgeUI Studio is the current visual embedded UI/HMI environment.
+
+[ForgeUI One](https://github.com/RTechAI/ForgeUI-One) is a related public ESP32-P4/LVGL framework and reference baseline for projects in this earlier generation.
+
+---
+
+## Support
 
 Questions, feature requests, and bug reports are welcome.
 
-Studio:
+Historical Studio repository: <https://github.com/RTechAI/esp32p4-ui-studio>
 
-https://github.com/RTechAI/esp32p4-ui-studio
+ForgeUI One reference: <https://github.com/RTechAI/ForgeUI-One>
 
-Runtime:
+Author: Scott Forster
 
-https://github.com/RTechAI/ForgeUI-One
-
-Author:
-
-Scott Forster
-
-📧 forgeui.esp32@gmail.com
+Email: forgeui.esp32@gmail.com
