@@ -6,15 +6,21 @@
 
 Cyberpunk Nexus is a native C / ESP-IDF embedded UI boilerplate and public reference for the Waveshare ESP32-P4-WIFI6-Touch-LCD-7B. It preserves a documented, hardware-proven ESP32-P4 and LVGL 9 baseline with the Cyberpunk Nexus HMI theme.
 
+This repository provides an earlier-generation ForgeUI reference for a 1024×600 touchscreen HMI on the Waveshare ESP32-P4-WIFI6-Touch-LCD-7B, using ESP-IDF, LVGL 9, and the Cyberpunk Nexus visual theme.
+
 ## ForgeUI Ecosystem
 
 ForgeUI is developed by [RTechAI](https://github.com/RTechAI).
 
-[ForgeUI](https://forgeui.co.nz) is the official home of the ForgeUI embedded UI/HMI development ecosystem. [ForgeUI Studio](https://forgeui.co.nz) is the current visual embedded UI/HMI development environment for supported ESP32 hardware, while [ForgeUI Hosted Studio](https://studio.forgeui.co.nz) is the hosted, browser-based ForgeUI Studio application and is available for public registration.
+The [ForgeUI website](https://forgeui.co.nz) is the official home of the ForgeUI embedded UI/HMI development ecosystem.
 
-RTechAI's GitHub organization hosts ForgeUI public repositories, hardware references, framework baselines, and example projects, including this Cyberpunk Nexus ESP32-P4 reference.
+ForgeUI Studio is the current visual embedded UI/HMI development environment for supported ESP32 hardware.
 
-This repository records an earlier ForgeUI generation created during the ESP32-P4 UI Studio / ForgeUI One era. It remains a public technical reference and is not represented as source or generated output from today's ForgeUI Hosted Studio.
+[ForgeUI Hosted Studio](https://studio.forgeui.co.nz) is the hosted, browser-based ForgeUI Studio application and is available for public registration.
+
+RTechAI's GitHub organization hosts ForgeUI public repositories, hardware references, framework baselines, examples, and related open development work.
+
+This repository is an earlier ESP32-P4 ForgeUI reference created during the ESP32-P4 UI Studio / ForgeUI One era. It remains a public technical reference and is not represented as source or generated output from current ForgeUI Hosted Studio.
 
 ## Overview
 
@@ -89,11 +95,11 @@ Choose the appropriate serial port for your system if the ESP-IDF environment do
 
 ## Historical ForgeUI Context
 
-Cyberpunk Nexus was visually designed and exported using the historical [ESP32-P4 UI Studio](https://github.com/RTechAI/esp32p4-ui-studio), then integrated with the [ForgeUI One](https://github.com/RTechAI/ForgeUI-One) runtime/reference baseline. Those projects describe the lineage of this repository; they are distinct from current ForgeUI Studio and Hosted Studio.
+Cyberpunk Nexus was visually designed and exported using the historical [ESP32-P4 UI Studio](https://github.com/RTechAI/esp32p4-ui-studio), then integrated with the [ForgeUI One](https://github.com/RTechAI/ForgeUI-One) runtime/reference baseline. Those earlier projects describe this repository's lineage; they are distinct from the current ForgeUI Studio environment and ForgeUI Hosted Studio application.
 
 ## Current ForgeUI Studio
 
-[ForgeUI](https://forgeui.co.nz) is the official ForgeUI website. [ForgeUI Hosted Studio](https://studio.forgeui.co.nz) is the hosted browser-based ForgeUI Studio application.
+The [ForgeUI website](https://forgeui.co.nz) is the official home of the ForgeUI embedded UI/HMI development ecosystem. [ForgeUI Hosted Studio](https://studio.forgeui.co.nz) is the hosted browser-based ForgeUI Studio application.
 
 ForgeUI Studio is the current visual embedded UI/HMI development environment for supported ESP32 hardware.
 
